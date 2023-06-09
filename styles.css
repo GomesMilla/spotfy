@@ -23,15 +23,20 @@ nav{
     flex-direction: row;
 }
 
+nav .logo{
+    margin-left: 5%;
+}
+
 nav .logo img{
-    width: 20%;
+    width: 60%;
     height: 65%;
-    margin-top: 1.5%;
+    margin-top: 6%;
     margin-left: 5%;
 }
 
 nav .option{
-    justify-content: center;
+    display: flex;
+    justify-content: flex-end;
     width: 80%;
     margin-top: 2%;
 }
